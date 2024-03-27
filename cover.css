@@ -1,0 +1,167 @@
+/* this is where all of your CSS styles go */
+.cover {
+	width: 800px;
+	height: 1200px;
+	background: #f7f2e4;
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+.text {
+	width: 800px;
+	height: 320px;
+	position: absolute;
+	background: #e62c89;
+	left: 0px;
+	top: 0px;
+}
+
+/*@font-face {
+	font-family: 'title';
+	src: ulr(../fonts/filename.ttf);
+}*/
+
+.title_one {
+	font-family: "Font";
+	font-size: 6em;
+	letter-spacing: 0px;
+	line-height: 45px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	z-index: 1;
+	position: absolute;
+	animation: subtitle_by_move 8s infinite alternate ease-in-out;
+	left: 55px;
+	top: 70px;
+}
+
+.title_two {
+	font-family: "Font";
+	font-size: 6em;
+	letter-spacing: 0px;
+	line-height: 45px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	z-index: 1;
+	position: absolute;
+	left: 55px;
+	top: 215px;
+}
+@font-face {
+	font-family: 'Font';
+	src:url(../fonts/ActaVarGX.woff2) format('woff');
+}
+
+@keyframes subtitle_by_move {
+	50% {top: 350px; color: red;}
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start rotating from 0 degrees */
+  }
+  to {
+    transform: rotate(1deg); /* Rotate to 360 degrees */
+  }
+}
+
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+@keyframes heartbeat {
+    0% {
+      transform: scale(0.75);
+    }
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(0.75);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.75);
+    }
+    100% {
+      transform: scale(0.75);
+    }
+  }
+
+.subtitle_by {
+	font-family: "Font";
+	font-size: 2.5em;
+	line-height: 45px;
+	text-transform: uppercase;
+	position: relative;
+	left: 55px;
+	top: 115px;
+}
+
+.circle_box {
+	width: 275px;
+	height: 196px;
+	position: absolute;
+	left: 480px;
+	overflow: hidden;
+}
+
+.circle {
+     width: 275px;
+     height: 275px;
+     background: #fc6b28;
+     border-radius: 50%;
+     position: absolute;
+     animation: heartbeat 6s infinite;
+/*     clip-path: polygon(0% 0%, 100% 0%, 100% 62%, 0% 62%);*/
+     left: 0px;
+     top: 10px;
+}
+
+.circle2 {
+		width: 180px;
+	    height: 180px;
+	    background: #ffb13d;
+	    border-radius: 50%;
+	    position: absolute;
+	    animation: heartbeat 6s infinite;
+/*	    clip-path: polygon(0% 0%, 100% 0%, 100% 72%, 0% 72%);*/
+	    left: 50px;
+     	top: 60px;
+}
+
+.circle3 {
+		width: 130px;
+	    height: 130px;
+	    background: #ffea30;
+	    border-radius: 50%;
+	    position: absolute;
+	    animation: heartbeat 6s infinite;
+/*	    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 80%);*/
+	    left: 77px;
+     	top: 90px;
+}
+
+.snake {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 450px;
+}	
+
+
+
+
