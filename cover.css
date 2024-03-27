@@ -53,7 +53,7 @@
 }
 @font-face {
 	font-family: 'Font';
-	src:url(../fonts/ActaVarGX.woff2) format('woff');
+	src:url(ActaVarGX.woff2) format('woff');
 }
 
 @keyframes subtitle_by_move {
